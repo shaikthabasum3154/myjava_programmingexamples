@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class  Marks_result
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter valid input");
+		int marks=scan.nextInt();
+		if (marks>=90&&<=100)
+		{
+			System.out.println("enter the first rank");
+		}
+		else if (marks>=80&&<=89)
+		{
+          System.out.println("enter the second rank");
+
+		}
+		else if (marks>=70&&<=79)
+		{
+		  System.out.println("enter the first class");
+		}
+		else if (marks>=50&&<=69)
+		{
+			System.out.println("enter the second class");
+		}
+		else if (marks>=35&&<=49)
+		{
+			System.out.println("enter the just pass");
+		}
+		else if (marks>=0&&<=34)
+		{
+			System.out.println("enter the fail");
+	}
+        else
+	    {
+		System.out.println("enter any other integer");
+
+		}
+	}
+}

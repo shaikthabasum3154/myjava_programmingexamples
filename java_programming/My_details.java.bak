@@ -1,0 +1,8 @@
+class My_details
+{
+	public static void main(String[] args) 
+	{
+		String name="B.sravani";
+		System.out.println(name);
+	}
+}

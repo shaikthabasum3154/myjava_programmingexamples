@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Average
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter first number");
+		int n1=scan.nextInt();
+		System.out.println("enter the second number");
+		int n2=scan.nextInt();
+		System.out.println("enter the third number");
+		int n3=scan.nextInt();
+		system.out.println("enter the fourth number");
+		int n4=scan.nextInt();
+		System.out.println("enter the fifth number");
+		int n5=scan.nextInt();
+		int average=n1+n2+n3+n4+n5;
+		System.out.println("average of "+n1+"and"+n2+" and"+n3+" and "+n4+" and "+n5+"is:"+average);
+	}
+}

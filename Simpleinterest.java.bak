@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Simpleinterest
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter to find simple interest");
+		float p=scan.nextFloat();
+		float r=scan.nextFloat();
+		float t=scan.nextFloat();
+		float simpleinterest=(p*t*r)/100;
+		System.out.println("find simple interest is:"+simpleinterest);
+
+	}
+}

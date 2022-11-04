@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class  Grades
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter valid input");
+		char grade=scan.next().charAt(0);
+		if (grade=='A')
+		{
+			System.out.println("enter the first rank");
+		}
+		else if (grade=='B')
+		{
+			System.out.println("enter the second rank");
+		}
+		else if (grade=='C')
+		{
+			System.out.println("enter the firts class");
+		}
+		else if (grade=='D')
+		{
+			System.out.println("enter the second class");
+		}
+		else if (grade=='E')
+		{
+			System.out.println("enter the just pass");
+		}
+		else if (grade=='F')
+		{
+			System.out.println("enter the fail");
+		}
+	
+	else
+	{
+		System.out.println("any other character");
+	}
+}
+}
+
