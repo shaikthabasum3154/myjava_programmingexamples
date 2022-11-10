@@ -1,0 +1,25 @@
+class Do 
+{
+	public static void main(String[] args) 
+	{
+		char a='a';
+		do
+		{ 
+	    System.out.println(a);
+		a++;
+		}while(a>='z');
+		{ 
+		for(char a='a';a<='z';a++)
+			{
+		if (a==y)
+			{
+			continue;
+			}
+			System.out.println(a);
+		}
+			
+
+	    
+		}
+	}
+}
