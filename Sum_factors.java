@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Sum_factors
+{
+ public static void main(String[] args) 
+	{
+     Scanner scan=new Scanner(System.in);
+	 System.out.println("enter the factors of a given number");
+	 int num=scan.nextInt();
+	 int sum=0;
+	 for(int a=1;a<=12;a++)
+		{
+		 if (num%a==0)
+		 {
+		 sum=sum+a;
+		 System.out.println(" sum of the factor is:"+sum);
+		}
+		}
+
+	}
+}
