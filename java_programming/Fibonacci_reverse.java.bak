@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Fibonacci_reverse 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter a number");
+		int n=scan.nextInt();
+		int a=0;
+		int b=1;
+		int sum=0;
+		int reverse=0;
+		while (true)
+		{
+			n++;
+			for (int i=2;i<n;i++)
+			{
+				for (int j=b-1;j<sum&&j<n;j--)
+				{
+				System.out.println(j);
+				}
+				a=b;
+				b=sum;
+				sum=a+b;
+			}
+			
+			 
+		
+		}
+			
+		
+			
+		
+		
+	}
+}

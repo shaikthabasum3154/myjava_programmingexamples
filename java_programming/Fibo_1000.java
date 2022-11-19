@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class  Fibo_1000
+{
+	public static void main(String[] args) 
+	{
+		
+        Scanner scan=new Scanner(System.in);
+		System.out.println("enter the number");
+		int n=scan.nextInt();
+		int a=0;
+		int b=1;
+		int sum=0;
+		int y=1;
+		for (int i=1;sum<=1000;i++)
+		{
+			System.out.println(y+") "+sum);
+			a=b;
+			b=sum;
+			sum=a+b;
+			y++;                                                            
+		}
+		System.out.println(sum);
+	}
+}

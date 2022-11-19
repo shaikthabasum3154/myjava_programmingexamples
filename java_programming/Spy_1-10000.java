@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class Spy_1to10000 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter a number");
+		int num=scan.nextInt();
+		int y=1;
+		for (int a=1;a<=10000;a++)
+		{
+			int temp=num;
+			int lastdigit=0;
+			int sum=0;
+			int product=1;
+			while (temp>0)
+			{
+				lastdigit=temp%10;
+				sum=sum+lastdigit;
+				product=product*lastdigit;
+				temp=temp/10;
+			}
+			if (sum==product)
+			{
+		   System.out.println(y+")"+sum);
+			}
+		}
+	}
+}
